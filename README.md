@@ -1,6 +1,6 @@
-# Loco
+# Learning Cycle
 
-Your neighborhood friendly localization service
+Just an app I am working on to learn cycle.js
 
 ## Endpoints
 
