@@ -48,5 +48,14 @@ module.exports = [
     config: {
       validate: { payload: todoSchema }
     }
+  },
+  { // Static file serving out of the `public` directory
+    method: 'GET',
+    path: '/{path*}',
+    handler: {
+      directory: {
+        path: 'public'
+      }
+    }
   }
 ];
